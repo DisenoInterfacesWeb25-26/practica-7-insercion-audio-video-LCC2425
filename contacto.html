@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="LuisC">
+        <meta name="title" content="Maqueta practica 4">
+        <meta name="description" content="Maqueta practica 4">
+        <title>Maqueta practica 4</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="estilos.css" rel="stylesheet">
+    </head>
+    <body class="h-100">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <nav class="navbar bg-body-tertiary">
+              <div class="container">
+                <a class="navbar-brand" href="index.html">
+                  <img src="https://www.eniun.com/wp-content/uploads/ENIUN@2x.png" alt="Bootstrap" width="60" height="48">
+                </a>
+              </div>
+            </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="tabla.html">Tabla</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+        <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb" class="m-3">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Sugerencias</a></li>
+                <li class="breadcrumb-item"><a href="#">Contáctanos</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            </ol>
+        </nav>
+        <div class="jumbotron text-justify p-5 m-3 texto">
+            <h3>Contacto</h3>
+            <p>This is a simple hero unit, a simple jumbotrom-style component calling extra attention to founded coment or information.</p>
+            <hr>
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        </div>
+        <form>
+        <div class="m-3">
+            <label for="exampleInputEmail1" class="form-label">Dirección de correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.</div>
+        </div>
+        <div class="m-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="m-3">
+            <label for="exampleInputPassword1" class="form-label">Escriba su consulta</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="m-3 p-5 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Aceptación de términos y condiciones</label>
+        </div>
+        <button type="submit" class="btn boton ms-3">Enviar</button>
+        </form>
+        <nav aria-label="Page navigation example" class="justify-content-center d-flex m-3">
+        <ul class="pagination">
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+            </li>
+        </ul>
+        </nav>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+    <footer class="footer text-center text-white p-4 m-2 ">
+        <p>© 2026 Enium. Todos los derechos reservados.</p>
+    </footer>
+</html>

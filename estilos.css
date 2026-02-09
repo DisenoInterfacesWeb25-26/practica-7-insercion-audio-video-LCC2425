@@ -1,0 +1,30 @@
+.carousel-inner img {
+    width: 250px;
+    height: 500px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.texto {
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+}
+.boton {
+    background-color: #0b968f;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.25rem;
+}
+.footer {
+    background-color: #0b968f;
+}   

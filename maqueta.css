@@ -1,0 +1,15 @@
+.bg-banner{
+    background-color: #20c997; 
+}
+.borde-menu{
+     border: 2px solid #cca500; 
+}   
+.borde-bloque{ 
+    border: 2px solid #b02a37; 
+}   
+.borde-banner{ 
+    border: 2px solid #1aa584; 
+}   
+.borde-footer { 
+    border: 2px solid #0a58ca; 
+}
